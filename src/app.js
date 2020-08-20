@@ -1,6 +1,7 @@
 import { Component } from 'react'
+
 import './app.scss'
-import 'taro-ui/dist/style/index.scss'
+// import 'taro-ui/dist/style/index.scss'
 class App extends Component {
 
   componentDidMount () {}

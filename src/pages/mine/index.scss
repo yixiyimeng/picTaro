@@ -1,0 +1,78 @@
+@import '../../custom-variables.scss';
+page,
+.taro_page {
+	height: 100%;
+}
+.index {
+	height: 100%;
+	background:#f6f6f6 url(../../assets/minebg.png) no-repeat center -160px;
+	background-size: 100% auto;
+	box-sizing: border-box;
+	.userInfo {
+		padding-top: 60px;
+		text-align: center;
+		color: #808080;
+		.Avatar {
+			width: 176px;
+			height: 176px;
+			margin: 0 auto;
+			background: #cbeade;
+			padding: 6px;
+			border-radius: 100%;
+			taro-image-core {
+				height: 100%;
+				width: 100%;
+			}
+		}
+		.name {
+			font-weight: 500;
+			font-size: 34px;
+		}
+		.phone {
+			font-size: 28px;
+		}
+		.bindBtn {
+			width: 658px;
+			height: 91px;
+			color: #fff;
+			background: $color-brand;
+			margin-top: 60px;
+			margin-bottom: 50px;
+		}
+	}
+	.modbox {
+		margin: 70px 45px 0;
+		.modbox-hd {
+			color: #808080;
+			font-size: 32px;
+			padding-left: 15px;
+			position: relative;
+			&::before {
+				content: '';
+				display: block;
+				position: absolute;
+				left: 0;
+				height: 31px;
+				width: 6px;
+				top: 50%;
+				transform: translateY(-50%);
+				background: $color-brand;
+			}
+		}
+		.navlist{
+			margin-top: 20px;
+			.nav-item{
+				background: #fff;
+				box-shadow: 0 0 10px rgba(0,0,0,.05);
+				border-radius: 12px;
+				font-size: 32px;
+				text-align: center;
+				line-height: 120px;
+				color: $color-brand;
+				&+.nav-item{
+					margin-left: 25px;
+				}
+			}
+		}
+	}
+}

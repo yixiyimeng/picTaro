@@ -2,6 +2,8 @@ import React, { Component } from 'react';
 import { View, Text, Image,Navigator } from '@tarojs/components';
 import { AtButton, AtForm, AtInput } from 'taro-ui';
 import './index.scss';
+import logoimg from '../../assets/logo.png'
+
 export default class Index extends Component {
 	componentWillMount() {}
 
@@ -28,7 +30,7 @@ export default class Index extends Component {
 	render() {
 		return (
 			<View className="index">
-				<Image className="logo" src="../../assets/logo.png" mode="widthFix" />
+				<Image className="logo" src={logoimg} mode="widthFix" />
 				<AtForm>
 					<AtInput
 						placeholderClass="placeholderClass"
