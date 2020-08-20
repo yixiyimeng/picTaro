@@ -5,9 +5,9 @@ export default {
 	],
 	window: {
 		backgroundTextStyle: 'light',
-		navigationBarBackgroundColor: '#fff',
+		navigationBarBackgroundColor: '#6ac1a0',
 		navigationBarTitleText: '富医睿影',
-		navigationBarTextStyle: 'black'
+		navigationBarTextStyle: 'white'
 	},
 	tabBar: {
 		list: [{
