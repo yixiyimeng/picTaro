@@ -1,0 +1,85 @@
+@import '../../custom-variables.scss';
+page,
+.taro_page {
+	height: 100%;
+}
+.index {
+	height: 100%;
+	background: #f6f6f6  url(../../assets/minebg.png) no-repeat center -120px;
+	background-size: 100% auto;
+	box-sizing: border-box;
+	padding-top: 65px;
+	.card {
+		background: #fff;
+		box-shadow: 0, 0, 0, rgba(0, 0, 0, 0.05);
+		border-radius: 10px;
+		margin: 0 45px;
+		& + .card {
+			margin-top: 50px;
+		}
+	}
+	.at-form {
+		background: none;
+		&:after {
+			opacity: 0;
+		}
+		.at-input {
+			background: none;
+			margin: 0 30px;
+			& + .at-input {
+				border-top: 1px solid #cbcbcb;
+			}
+			&.bt {
+				border-bottom: 1px solid #cbcbcb;
+			}
+			input {
+				font-size: 30px;
+				&::-webkit-input-placeholder {
+					color: #b2b2b2;
+					/*输入框提示语的字体样式*/
+				}
+			}
+			.at-input__title {
+				font-size: 28px;
+				width: 5em;
+			}
+		}
+		.icon {
+			height: 40px;
+			width: 40px;
+		}
+	}
+
+	.submitBtn {
+		background: $color-brand;
+		color: #fff;
+		margin: 60px 45px 0;
+	}
+
+	.placeholderClass {
+		color: #b2b2b2;
+	}
+	.at-list__item,
+	.at-list__item .item-extra__info {
+		font-size: 28px;
+	}
+	.at-list:after {
+		opacity: 0;
+	}
+	.tip {
+		margin: 30px 45px 10px;
+		font-size: 20px;
+		color: #808080;
+		.icon {
+			width: 30px;
+			height: 30px;
+			margin-right: 12px;
+		}
+	}
+	.tip2 {
+		margin: 0 45px;
+		font-size: 25px;
+		color: $color-brand;
+		line-height: 38px;
+	}
+}
