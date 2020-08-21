@@ -37,7 +37,7 @@ const Index = props => {
 					</View>
 				</View>
 			</View>
-			<Navigator className="addBtn  at-row at-row__align--center">
+			<Navigator url="/pages/addreg/index" className="addBtn  at-row at-row__align--center">
 				<Image src={addicon} className="icon" mode="widthFix" />
 				<Text className="at-col">添加注册号</Text>
 				<Text>还可绑定1个</Text>
