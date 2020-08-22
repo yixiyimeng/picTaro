@@ -1,0 +1,43 @@
+@import '../../custom-variables.scss';
+page,
+.taro_page {
+	height: 100%;
+}
+.index {
+	height: 100%;
+	background: #f6f6f6;
+	box-sizing: border-box;
+	padding: 40px 50px;
+	position: relative;
+	.bg{
+		position: absolute;
+		top: 0;
+		left: 0;
+		height: 100%;
+		width: 100%;
+	}
+	.logo{
+		width: 458px;
+		display: block;
+		height: auto;
+		position: absolute;
+		top: 30%;
+		left: 50%;
+		transform: translateX(-50%);
+	}
+	.link{
+		width: 453px;
+		line-height: 90px;
+		background: #fff;
+		color: $color-brand;
+		border-radius: 10px;
+		display: block;
+		position: absolute;
+		bottom: 186px;
+		left: 50%;
+		transform: translateX(-50%);
+		text-align: center;
+		font-size: 30px;
+	}
+	
+}

@@ -4,7 +4,8 @@ export default {
 		'pages/reg/index',
 		'pages/mine/index',
 		'pages/editinfo/index',
-		'pages/bindinfo/index'
+		'pages/bindinfo/index',
+		'pages/splash/index'
 	],
 	window: {
 		backgroundTextStyle: 'light',
