@@ -5,6 +5,8 @@ export default {
 		'pages/mine/index',
 		'pages/editinfo/index',
 		'pages/bindinfo/index',
+		'pages/addreg/index',
+		'pages/orderlist/index',
 		'pages/splash/index'
 	],
 	window: {
@@ -19,7 +21,7 @@ export default {
 			text: "首页",
 			iconPath: "assets/cloud.png",
 			selectedIconPath: "assets/cloud.png"
-		
+
 		}, {
 			pagePath: "pages/mine/index",
 			text: "我的",

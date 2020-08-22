@@ -1,0 +1,88 @@
+@import '../../custom-variables.scss';
+page,
+.taro_page {
+	height: 100%;
+}
+.index {
+	height: 100%;
+	background: #f6f6f6;
+	background-size: 100% auto;
+	box-sizing: border-box;
+	padding: 25px 45px;
+	.nav {
+		.nav-item {
+			background: #fff;
+			box-shadow: 0 0 10px rgba(0, 0, 0, 0.05);
+			border-radius: 12px;
+			font-size: 32px;
+			text-align: center;
+			line-height: 90px;
+			color: $color-brand;
+			&.active {
+				color: #fff;
+				background: $color-brand;
+			}
+			& + .nav-item {
+				margin-left: 15px;
+			}
+		}
+	}
+	.list {
+		.list-item {
+			background: #fff;
+			border-radius: 10px;
+			border: 1px solid #f6f6f6;
+			color: #b2b2b2;
+			padding: 15px 18px;
+			margin-top: 30px;
+			font-size: 21px;
+			box-shadow: 0 0 10px rgba(0, 0, 0, 0.05);
+			position: relative;
+			.item-hd {
+				border-bottom: 1px solid #eee;
+				position: relative;
+				.icon {
+					height: 34px;
+					width: 34px;
+					margin-right: 18px;
+				}
+				.title {
+					color: $color-brand;
+					font-size: 32px;
+				}
+				.link {
+					color: $color-brand;
+					font-size: 19px;
+					position: absolute;
+					right: 0;
+					top: 0;
+				}
+				.name {
+					padding: 20px 0 10px;
+				}
+			}
+			.item-bd {
+				.title {
+					color: #808080;
+					width: 6em;
+					display: inline-block;
+				}
+			}
+			.item-ft {
+				position: absolute;
+				bottom: 15px;
+				right: 18px;
+				color: $color-brand;
+				font-size: 26px;
+				.btn {
+					color: #fff;
+					background: $color-brand;
+					border-radius: 8px;
+					text-align: center;
+					line-height: 49px;
+					width: 157px;
+				}
+			}
+		}
+	}
+}

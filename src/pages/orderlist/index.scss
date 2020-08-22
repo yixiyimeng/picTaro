@@ -1,0 +1,26 @@
+@import '../../custom-variables.scss';
+page,
+.taro_page {
+	height: 100%;
+}
+.index {
+	height: 100%;
+	background: #f6f6f6  url(../../assets/minebg.png) no-repeat center -120px;
+	background-size: 100% auto;
+	box-sizing: border-box;
+	padding-top: 65px;
+	.nav{
+		.nav-item{
+			background: #fff;
+			box-shadow: 0 0 10px rgba(0,0,0,.05);
+			border-radius: 12px;
+			font-size: 32px;
+			text-align: center;
+			line-height: 90px;
+			color: $color-brand;
+			&+.nav-item{
+				margin-left:10px;
+			}
+		}
+	}
+}
