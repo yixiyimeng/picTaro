@@ -7,7 +7,14 @@ export default {
 		'pages/bindinfo/index',
 		'pages/addreg/index',
 		'pages/orderlist/index',
-		'pages/splash/index'
+		'pages/splash/index',
+		'pages/renew/index',
+		'pages/renewtwo/index',
+		'pages/report/index',
+		'pages/share/index',
+		'pages/origReport/index',
+		'pages/film/index',
+		'pages/tip/index'
 	],
 	window: {
 		backgroundTextStyle: 'light',

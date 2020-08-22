@@ -1,0 +1,61 @@
+@import '../../custom-variables.scss';
+page,
+.taro_page {
+	height: 100%;
+}
+.index {
+	height: 100%;
+	background: #f6f6f6;
+	background-size: 100% auto;
+	box-sizing: border-box;
+	padding-top: 160px;
+	.icon {
+		width: 250px;
+		height: auto;
+		display: block;
+		margin: 0 auto 40px;
+	}
+	.tip {
+		color: $color-brand;
+		font-size: 32px;
+		text-align: center;
+		&+.tip{
+			font-size: 25px;
+		}
+	}
+	.btnlist {
+		margin: 100px 105px 32px;
+		box-sizing: border-box;
+		width: auto;
+	}
+	.cancelBtn,
+	.payBtn {
+		height: 71px;
+		line-height: 71px;
+		background: $color-brand;
+		color: #fff;
+		margin: 0;
+		border: none;
+	}
+	.payBtn,
+	.cancelBtn {
+		width: 257px;
+	}
+	.cancelBtn {
+		background: #c8c8c8;
+		color: #fff;
+	}
+	.read {
+		color: #808080;
+		font-size: 20px;
+
+		text-align: center;
+		.taro-checkbox_checked {
+			transform: scale(0.7);
+		}
+		.txt {
+			line-height: 30px;
+			margin-top: 10px;
+		}
+	}
+}

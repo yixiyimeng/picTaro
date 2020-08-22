@@ -1,0 +1,57 @@
+@import '../../custom-variables.scss';
+page,
+.taro_page {
+	height: 100%;
+}
+.index {
+	height: 100%;
+	background: #f6f6f6;
+	background-size: 100% auto;
+	box-sizing: border-box;
+	padding-top: 200px;
+	color: $color-brand;
+	.title {
+		text-align: center;
+		font-size: 36px;
+	}
+	.radio-list {
+		margin-top: 50px;
+		.radio-list__label {
+			font-size: 28px;
+			margin-top: 10px;
+			display: block;
+			margin-left: 160px;
+		}
+		.weui-cells_checkbox .weui-icon-checked:before {
+			font-size: 26px;
+		}
+	}
+	.shareBtn {
+		width: 654px;
+		line-height: 90px;
+		color: #fff;
+		background: $color-brand;
+		border: none;
+		font-size: 30px;
+		margin: 60px auto 0;
+	}
+	.picker {
+		width: 170px;
+		height: 61px;
+		line-height: 61px;
+		background: #fff;
+		border-radius: 10px;
+		box-shadow: 0, 0, 10, rgba(0, 0, 0, 0.4);
+		color: #b2b2b2;
+		font-size: 30px;
+		padding: 0 10px;
+		margin-left: 24px;
+		position: relative;
+		.at-icon {
+			font-size: 40px !important;
+			position: absolute;
+			right: 10px;
+			line-height: 61px;
+		}
+	}
+}

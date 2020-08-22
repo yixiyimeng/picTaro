@@ -1,0 +1,80 @@
+@import '../../custom-variables.scss';
+page,
+.taro_page {
+	height: 100%;
+}
+.index {
+	height: 100%;
+	background: #f6f6f6;
+	background-size: 100% auto;
+	box-sizing: border-box;
+	.report-hd {
+		color: $color-brand;
+		font-size: 27px;
+		position: relative;
+		text-align: center;
+		background: #d7efe5;
+		line-height: 92px;
+		.arrow {
+			position: absolute;
+			line-height: 92px;
+			top: 0;
+			display: block;
+			right: 50px;
+			.at-icon {
+				font-size: 40px !important;
+			}
+		}
+	}
+	.report-bd {
+		max-height: calc(100% - 92px - 220px);
+		overflow: auto;
+		position: relative;
+
+		.reportimg {
+			width: 100%;
+			height: auto;
+			display: block;
+		}
+		.shareBtn {
+			position: absolute;
+			width: 125px;
+			line-height: 49px;
+			color: #fff;
+			background: $color-brand;
+			font-size: 30px;
+			top: 32px;
+			left: 50px;
+			z-index: 999;
+			height: 49px;
+			border: none;
+		}
+	}
+	&.origReport {
+		.report-bd {
+			max-height: calc(100% - 92px);
+		}
+	}
+	.report-ft {
+		color: $color-brand;
+		font-size: 20px;
+		text-align: center;
+		padding-top: 18px;
+		.btnlist {
+			margin: 50px;
+			box-sizing: border-box;
+			width: auto;
+		}
+		.btn {
+			background: $color-brand;
+			color: #fff;
+			border: none;
+
+			font-size: 30px;
+
+			& + .btn {
+				margin-left: 20px;
+			}
+		}
+	}
+}
